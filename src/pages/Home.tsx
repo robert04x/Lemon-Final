@@ -435,7 +435,7 @@ const Home = () => {
                     ${rotations[index]}
                   `}
                   style={{ transformStyle: 'preserve-3d' }}
-                >
+                
                   <div className="text-center">
                     <div className="w-12 h-12 mx-auto mb-2 bg-yellow-300 rounded-full flex items-center justify-center">
                       <span className="text-2xl">{emojis[index]}</span>
