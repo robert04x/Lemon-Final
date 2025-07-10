@@ -4,18 +4,6 @@ import { Clock, MapPin, Phone, Mail, Diamond as Lemon } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import Background3D from '../components/Background3D';
 import logo from '/src/Lemon Logo - Final.png'
-import 1 from '/src/photo-1.jpg'
-import 2 from '/src/photo-2.jpg'
-import 3 from '/src/photo-3.jpg'
-import 4 from '/src/photo-4.jpg'
-import 5 from '/src/photo-5.jpg'
-import 6 from '/src/photo-6.jpg'
-import 7 from '/src/photo-7.jpg'
-import 8 from '/src/photo-8.jpg'
-import 9 from '/src/photo-9.jpg'
-import 10 from '/src/photo-10.jpg'
-import 11 from '/src/photo-11.jpg'
-import 12 from '/src/photo-12.jpg'
 
 const SimpleLogo = () => {
   return (
