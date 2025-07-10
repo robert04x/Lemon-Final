@@ -418,11 +418,11 @@ const Home = () => {
                     type: "spring",
                     stiffness: 100
                   }}
-                  <img
-                    src={`/src/photo-${index + 1}.jpg`} // ✅ Replace this path with your actual image path
-                    alt={`Gallery image ${index + 1}`}
-                    className="w-full h-auto object-cover"
-                  />
+                    <img
+                      src={`/src/photo-${index + 1}.jpg`} // ✅ Replace this path with your actual image path
+                      alt={`Gallery image ${index + 1}`}
+                      className="w-full h-auto object-cover"
+                    />
 
                   viewport={{ once: true, margin: "-100px" }}
                   whileHover={{ scale: 1.05, rotateY: 3, rotateX: -2 }}
