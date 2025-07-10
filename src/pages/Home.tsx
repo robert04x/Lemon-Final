@@ -3,12 +3,16 @@ import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import { Clock, MapPin, Phone, Mail, Diamond as Lemon } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import Background3D from '../components/Background3D';
+import logo from '/src/Lemon Logo - Final.png'
 
 const SimpleLogo = () => {
   return (
-    <div className="mb-4 sm:mb-8">
-      <div className="w-12 h-12 sm:w-20 sm:h-20 rounded-full bg-yellow-400 flex items-center justify-center border-2 border-white shadow-md mx-auto">
-        <Lemon className="text-white w-5 h-5 sm:w-8 sm:h-8" />
+    <div className="mb-8">
+      <div className="w-20 h-20 rounded-full bg-yellow-400 flex items-center justify-center border-2 border-white shadow-md mx-auto">
+        <img
+          src={logo}
+          className="w-12 h-12 object-contain"
+        />
       </div>
     </div>
   );
