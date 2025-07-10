@@ -4,6 +4,18 @@ import { Clock, MapPin, Phone, Mail, Diamond as Lemon } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import Background3D from '../components/Background3D';
 import logo from '/src/Lemon Logo - Final.png'
+import 1 from '/src/1.jpg'
+import 2 from '/src/2.jpg'
+import 3 from '/src/3.jpg'
+import 4 from '/src/4.jpg'
+import 5 from '/src/5.jpg'
+import 6 from '/src/6.jpg'
+import 7 from '/src/7.jpg'
+import 8 from '/src/8.jpg'
+import 9 from '/src/9.jpg'
+import 10 from '/src/10.jpg'
+import 11 from '/src/11.jpg'
+import 12 from '/src/12.jpg'
 
 const SimpleLogo = () => {
   return (
@@ -404,7 +416,9 @@ const Home = () => {
               
               // Define emoji variations
               const emojis = ['🍽️', '🍕', '🥘', '🍖', '🥗', '🍰', '☕', '🍝', '🥙', '🍲', '🧀', '🍷'];
-              
+
+              const galleryImages = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+      
               return (
                 <motion.div
                   key={`photo-${index}`}
@@ -416,6 +430,12 @@ const Home = () => {
                     type: "spring",
                     stiffness: 100
                   }}
+                  <img
+                    src={`/src/photo-${index + 1}.jpg`} // ✅ Replace this path with your actual image path
+                    alt={`Gallery image ${index + 1}`}
+                    className="w-full h-auto object-cover"
+                  />
+
                   viewport={{ once: true, margin: "-100px" }}
                   whileHover={{ scale: 1.05, rotateY: 3, rotateX: -2 }}
                   className={`
